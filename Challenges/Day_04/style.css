@@ -17,7 +17,7 @@ input[type="checkbox"]{
   display: block;
   width: 100px;
   height: 60px;
-  background-color:#020B29;
+  background-color:#A64D79;
   cursor: pointer;
   border-radius: 50px;
   overflow: hidden;
@@ -25,8 +25,8 @@ input[type="checkbox"]{
 }
 
 input[type="checkbox"]:checked ~ .check{
-  background: whitesmoke;
-  box-shadow: 0 0 0 1200px #020B29;
+  background: black;
+  box-shadow: 0 0 0 1200px #A64D79;
 }
 
 input[type="checkbox"]:checked ~ .check:before{
@@ -38,7 +38,7 @@ input[type="checkbox"]:checked ~ .check:before{
   position: absolute;
   top: 15px;
   left: 10px;
-  background-color: whitesmoke;
+  background-color: black;
   width: 30px;
   height: 30px;
   border-radius: 50%;
